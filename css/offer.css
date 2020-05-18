@@ -1,0 +1,36 @@
+
+/* offer section*/
+.offer-content{
+    overflow: hidden;
+}
+.offer-item{
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid var(--graycolor);
+    padding: 30px 15px 30px 70px;
+    position: relative;
+}
+.offer-item.mg{
+    margin: 0 5%;
+}
+.offer-item .icon{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    color: var(--maincolor);;
+}
+.offer-item-title{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    transition: color .5s;
+}
+.offer-item-desc{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    line-height: 1.6;
+    color: gray;
+}
+.offer-item:hover .offer-item-title{
+    color: var(--whitecolor);
+}
